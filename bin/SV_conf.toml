@@ -1,0 +1,59 @@
+[[annotation]]
+file="/projects/b1059/data/genomes/c_elegans/Annotations/exons.bed.gz"
+columns = [4]
+names=["exon"]
+ops=["self"]
+
+[[annotation]]
+file="/projects/b1059/data/genomes/c_elegans/Annotations/gquarted.bed.gz"
+columns = [4]
+names=["Gquartet"]
+ops=["self"]
+
+[[annotation]]
+file="/projects/b1059/data/genomes/c_elegans/Annotations/TF_bindingsite.bed.gz"
+columns = [4, 5, 6]
+names=["WBname", "TFid", "TFname"]
+ops=["self", "self", "self"]
+
+[[annotation]]
+file="/projects/b1059/data/genomes/c_elegans/Annotations/TF_bindingsite_paper.bed.gz"
+columns = [4]
+names=["TF_paperSource"]
+ops=["self"]
+
+[[annotation]]
+file="/projects/b1059/data/genomes/c_elegans/Annotations/promoter.bed.gz"
+columns = [4]
+names=["TF_paperSource"]
+ops=["self"]
+
+[[annotation]]
+file="/projects/b1059/data/genomes/c_elegans/Annotations/histone_binding.bed.gz"
+columns = [4]
+names=["Histone_Binding"]
+ops=["self"]
+
+[[annotation]]
+file="/projects/b1059/data/genomes/c_elegans/Annotations/mirna_binding.bed.gz"
+columns = [4]
+names=["miRNA_binding"]
+ops=["self"]
+
+[[annotation]]
+file="/projects/b1059/data/genomes/c_elegans/Annotations/splice_sites.bed.gz"
+columns = [4]
+names=["Splice_Sites"]
+ops=["self"]
+
+[[annotation]]
+file="Manta_repeats.bed.gz"
+columns = [4]
+names=["Manta_Repeat"]
+ops=["self"]
+
+[[annotation]]
+file="REFseq_repeats.bed.gz"
+columns = [4]
+names=["REFseq_Repeat"]
+ops=["self"]
